@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+
+*{
+  font-family:Montserrat;
+  margin:0;
+  width:100%;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App h1{
+  text-align: center;
+  font-size:30px;
+  margin: 30px auto;
 }
+
+.navbar{
+  width:70%;
+  height:30px;
+  align-items: center;
+  margin:30px auto;
+}
+
+.navbar ul{
+  list-style: none;
+  display:inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+.navbar ul li{
+  width:100px;
+  text-align: center;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+}
+
+.navbar ul li a.active, a:hover{
+  border-bottom: 4px solid #0000ff;
+  width:30px;
+}
+
+.container{
+  width:40%;
+  margin:auto;
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .content{
+  width:100%;
+  height: 150px;
+}
+
+.content .todoform{
+  width:100%;
+  height:auto;
+}
+
+.content .todoform .addItemInput{
+  width:85%;
+  height: 25px;
+}
+
+.container .todoform .todo-btn{
+  width: 10%;
+  height:30px;
+  background-color:blue;
+  color:white;
+  border: 0;
+}
+
+.Todowrap{
+  width:40%;
+  margin:10px auto;
+  height:30px;
+  display: flex;
+}
+
+.Todowrap p{
+  width:90%;
+  height:auto;
+  background-color: #d4d2d2;
+  padding-left: 20px;
+}
+
+.Todowrap .chekbox{
+  width:30px;
+  height:20px;
+}
+
+
+
+
+ 
